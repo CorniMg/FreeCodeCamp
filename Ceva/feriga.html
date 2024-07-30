@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Plants</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="utf-8">
+
+</head>
+
+<body>
+<h1 id="title" class="titlu">Survey about plants</h1>
+<p id="description" class="descriere">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plants are the eukaryotes that form the kingdom Plantae; they are predominantly photosynthetic. This means that they obtain their energy from sunlight, using chloroplasts derived from endosymbiosis with cyanobacteria to produce sugars from carbon dioxide and water, using the green pigment chlorophyll. Exceptions are parasitic plants that have lost the genes for chlorophyll and photosynthesis, and obtain their energy from other plants or fungi.</p>
+
+
+<form id="survey-form" class="survey">
+  <fieldset>
+<label id="name-label" >Your name:
+<input id="name" placeholder="Austin" type="text" required>
+
+<label id="email-label">Email:
+  <input id="email" placeholder="planta1@gmail.com" type="email" required>
+
+<label id="number-label">Number of ferns:
+  <input id="number" type="number" placeholder="How many plants you have right now." min=1 max=100>
+</label>
+
+<label id="favoriteFern">What is your favorite fern?
+<select class="dropdown" id="dropdown">
+  <option>none</option>
+  <option>Ostrich Fern</option>
+   <option>Macho Fern</option>
+    <option>Lemon Butter Fern</option>
+     <option>Western Sword Fern</option>
+      <option>Autumn Fern</option>
+       <option>Lady Fern</option>
+</select>
+</fieldset>
+
+<hr>
+<fieldset>
+  <label>What is the climate of your plant?</label>
+  <label id="humid">
+    <input name="climate" value="humidclimate" type="radio" required  checked class="inline">Humid climate
+  </label>
+  <label id="dry">
+    <input name="climate" value="dryclimate" type="radio" class="inline">Dry climate
+  </label>
+</fieldset>
+
+<hr>
+<fieldset>
+
+<label>What soil brand do you use for your fern?</label>
+
+<label class="checkbox" for="Pokon"><input type="checkbox" checked id="Pokon"  value="Pokon" class="inline" >Pokon</label>
+<label class="checkbox" for="Ninja"><input type="checkbox" value="Ninja" id="Ninja"  class="inline" >Soil Ninja</label>
+<label class="checkbox" for="RHS"><input type="checkbox" id="RHS"  value="RHS" class="inline" >RHS</label>
+<label class="checkbox" for="miracle"><input type="checkbox" id="miracle"  value="miracle" class="inline" >Miracle-Gro</label>
+
+</fieldset>
+ 
+<hr>
+<fieldset>
+<label>What do you like most about your fern?</label>
+<textarea placeholder="The leaves, the color, the shape..."></textarea>
+</fieldset>
+
+<fieldset>
+<input id="submit" type="submit">
+</fieldset>
+
+
+</form>
+</body>
+</html>

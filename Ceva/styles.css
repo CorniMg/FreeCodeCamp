@@ -1,0 +1,81 @@
+h1{
+    text-align:center;
+  }
+  
+  body{
+    background-image:url('https://images.unsplash.com/photo-1524116458090-9521cd04f38d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: center;
+    background-size: cover;
+  
+  }
+  
+  .titlu, .descriere, .survey{
+  color:white;
+  }
+  
+  p, form{
+  width:50vw;
+  max-width:900px;
+  min-width:400px;
+  margin:0 auto;
+  }
+  
+  .survey{
+  background-color:#0f4d0f;
+  }
+  
+  
+  p{
+   text-align: justify;
+  padding-bottom:2em;
+   }
+  
+  label {
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  input, textarea, select{
+  width:100%;
+  }
+  
+  .dropdown{
+    padding: 1px 2px;
+   }
+  
+  
+  .inline{
+  width:unset;
+  }
+  
+  .checkbox{
+  display:block;
+  }
+  
+  input[type="submit"]{
+  display: block;
+  width:20%;
+  font-size:1em;
+  margin: 10px auto;
+  height:2em;
+   min-width: 100px;
+  border-color:white;
+  }
+  
+  
+  fieldset {
+    border: none;
+  
+  }
+  
+  textarea{
+  border-color:white;
+  }
+  
+  hr{
+  height:1x;
+  border-color:#8bc462;
+  background-color:#8bc462;
+  
+  }
+  
