@@ -1,0 +1,163 @@
+h1{
+    font-family: "Lucida Console", "Courier New",sans-serif;
+    
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.descriereInceput{
+    max-width:500px;
+    margin:20px auto;
+    text-align: justify;
+}
+.italic{
+    font-style: italic;
+}
+
+
+.bold{
+    font-weight: bold;}
+
+#main{
+    padding:10px;
+    margin:30px 8px 30px 8px;
+    background-color:#E1E1E7;
+    border-radius:15px;
+    
+}
+
+body{
+   
+    margin:0;
+}
+.patrat{
+
+    background-color:white;
+    border-radius:10px;
+
+  
+
+}
+
+
+.titluPrincipal{
+text-align:center;
+margin:20px 0 0 0;
+padding:0;
+font-size:3rem;
+}
+
+
+.inline{
+    display:inline;
+}
+
+img{
+    display:block;
+    border-radius:10px;
+    margin:15px;
+    
+  }
+
+#image{
+    max-width:100%;
+    height:auto;
+    margin:0;
+  
+  }
+
+figure{
+    padding:20px ;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+
+}
+
+figcaption{
+    text-align:center;
+    font-size:14px;
+    margin-top:5px;
+   
+}
+
+#element-info{
+    margin:30px auto;
+    padding-bottom:10px;
+    font-size:24px;
+    text-align:center;
+    font-size:2em;
+}
+
+hr{
+    width:100%;
+    margin-top:50px;
+    color: #A3A3A8;
+}
+
+.coloane{
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    max-width:176px;
+    background-color: white;
+    padding:20px 50px;
+    border-radius: 10px;;
+
+}
+
+
+#tribute-info{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    
+}
+
+.pozaAlbum1, .pozaAlbum2,.pozaAlbum3{
+    width:100%;
+    max-width:176px;
+    max-height:176px;
+    padding:0;
+    margin:0;
+
+}
+
+img{
+    padding:0;
+    margin:0;
+    height:200px;
+}
+
+.denumire{
+text-align:center;
+margin-bottom:10px;
+height:30px;
+}
+
+.font{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', cursive;
+ 
+}
+
+h2{
+    text-align:center;
+   margin-top:0;
+    
+}
+
+#tribute-link:link{
+    color:black;
+    text-decoration:none;
+}
+
+#tribute-link:hover{
+    color:#FA7F08;
+    font-size:30px;
+}
+a:link, a:visited    {
+    color: #A3A3A8;
+ 
+  }
